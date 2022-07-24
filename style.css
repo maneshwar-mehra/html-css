@@ -1,3 +1,4 @@
+/* First subscribe button */
 .subscribe {
     background-color: rgb(218, 45, 45);
     color: white;
@@ -7,23 +8,82 @@
     border-radius: 2px;
     cursor: pointer;
     font-size: 15px;
+    margin-right: 50px;
 }
 
+/* Second subscribe button */
+.subscribe2 {
+    background-color: rgb(218, 45, 45);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 84px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 50px;
+    transition: opacity 0.5s;
+}
+
+/* hover effect on second subscribe button */
+.subscribe2:hover {
+    opacity: 0.8;
+}
+
+/* active effect (means when clicked) on second subscribe button */
+.subscribe2:active {
+    opacity: 0.6;
+}
+
+/* First join button */
 .join {
     background-color: white;
-    color: rgb(79, 79, 226);
+    color: rgb(41, 118, 211);
     height: 40px;
     width: 70px;
     border-radius: 2px;
     border-color: rgb(79, 79, 226);
     border-style: solid;
     border-width: 1px;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 400;
     cursor: pointer;
+    margin-right: 50px;
 }
 
+/* Second join button */
+.join2 {
+    background-color: white;
+    color: rgb(41, 118, 211);
+    height: 40px;
+    width: 70px;
+    border-radius: 2px;
+    border-color: rgb(79, 79, 226);
+    border-style: solid;
+    border-width: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    /* transition takes 2 values first: what needs to be changed, second: the time it take 0.1ms-1s, 2s, 3s and so on
+        We can put multiple properties in transitions using comma ,
+        We write the transition in main element's css and not in psedo classes like :hover, :active etc */
+    transition: background-color 1s, color 1s;
+}
+
+/* hover effect on second join button */
+.join2:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+/* active effect (means when clicked) on second join button */
+.join2:active {
+    opacity: 0.8;
+}
+
+/* First tweet button */
 .tweet {
-    background-color: rgb(83, 144, 224);
+    background-color: rgb(2, 158, 255);
     color: white;
     border: none;
     height: 45px;
@@ -32,8 +92,50 @@
     font-size: 18px;
     cursor: pointer;
     font-weight: bold;
+    margin-right: 50px;
 }
 
+/* Second tweet button (with box-shadow) */
+.tweet2 {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 45px;
+    width: 90px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 50px;
+    /* box-shadow takes 4 values
+    1. Horizontal shadow (in pixels)
+    2. Vertical shadow (in pixels)
+    3. Blur amount (in pixels)
+    4. Color in rgba (a in rgba stands for opacity 0.1-1.0)*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tweet3 {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 45px;
+    width: 90px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: box-shadow 0.4s;
+}
+/* box-shadow on hover */
+.tweet3:hover {
+    /* box-shadow takes 4 values
+    1. Horizontal shadow (in pixels)
+    2. Vertical shadow (in pixels)
+    3. Blur amount (in pixels)
+    4. Color in rgba (a in rgba stands for opacity 0.1-1.0)*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 .uber {
     background-color: black;
     color: white;
