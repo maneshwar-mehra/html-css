@@ -6,7 +6,7 @@
     border-radius: 3px;
     cursor: pointer;
     font-size: 16px;
-    padding: 16px 12px;
+    padding: 12px 12px;
     margin-right: 50px;
 }
 
@@ -15,12 +15,12 @@
     background-color: rgb(218, 45, 45);
     color: white;
     border: none;
-    padding: 16px 12px;
+    padding: 12px 12px;
     border-radius: 3px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 50px;
-    transition: opacity 0.5s;
+    transition: opacity 0.3s;
 }
 
 /* hover effect on second subscribe button */
@@ -63,7 +63,7 @@
     /* transition takes 2 values first: what needs to be changed, second: the time it take 0.1ms-1s, 2s, 3s and so on
         We can put multiple properties in transitions using comma ,
         We write the transition in main element's css and not in psedo classes like :hover, :active etc */
-    transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s, color 1s;
 }
 
 /* hover effect on second join button */
@@ -199,4 +199,103 @@
     font-size: 18px;
     font-weight: 700;
     padding: 14px 30px;
+}
+
+.biggest-deals {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.sale-end {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.html-course {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.beginner {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.course {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 400px;
+}
+
+.get-started {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(47, 116, 47);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.shop-business {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.apple-work {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.learn-more {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(66, 121, 240);
+    text-align: center;
+    cursor: pointer;
+}
+
+.big-number {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.usd {
+    font-size: 16px;
+    font-weight: 700;
+    color: grey;
+}
+
+.green-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    margin-top: 6px;
+}
+
+.after-hours {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: 500;
+}
+
+.span-red {
+    font-size: 16px;
+    color: rgba(231, 40, 40, 0.945);
 }
