@@ -1,3 +1,8 @@
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 /* First subscribe button */
 .subscribe {
     background-color: rgb(218, 45, 45);
@@ -298,4 +303,117 @@
 .span-red {
     font-size: 16px;
     color: rgba(231, 40, 40, 0.945);
+}
+
+.dog-image-round-corner {
+    width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.dog-image-center {
+    width: 150px;
+    height: 150px;
+    object-position: center;
+    margin-right: 20px;
+}
+
+.dog-image-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search-box-one {
+    font-size: 18px;
+    padding: 8px 8px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 100px;
+}
+
+.google-search-box {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    /* padding-right: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px 12px 10px 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.email {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgba(66, 65, 65, 0.726);
+    margin-bottom: 6px;
+}
+
+.linkedin-signup {
+    height: 30px;
+    width: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(59, 58, 58, 0.658);
+}
+
+.linked-privacy-policy {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 8px;
+    color: rgba(66, 65, 65, 0.726);
+}
+
+.agree {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    width: 400px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 11px 115px 11px 115px;
+}
+
+.smallest-dog-image {
+    /* added vertical-align: middle, to achieve this design. It wil verticlly align the item in the center */
+    vertical-align: middle;
+    width: 34px;
+    height: 34px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.whats-happening {
+    vertical-align: middle;
+    border: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.twt-txt-box {
+    vertical-align: middle;
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 19px;
+    cursor: pointer;
+    font-weight: 500;
 }
