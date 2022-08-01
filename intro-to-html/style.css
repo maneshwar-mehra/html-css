@@ -397,9 +397,9 @@ hr {
 }
 
 .whats-happening {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     vertical-align: middle;
     border: none;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: 500;
     padding-left: 10px;
@@ -416,4 +416,278 @@ hr {
     font-size: 19px;
     cursor: pointer;
     font-weight: 500;
+}
+
+.placeholder-display-block {
+    display: block;
+    font-size: 18px;
+    padding: 8px 8px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.placeholder-display-block2 {
+    display: block;
+    font-size: 18px;
+    padding: 8px 8px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+}
+
+.survey-para {
+    display: inline-block;
+    width: 220px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.yes-btn {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px 7px 1px 7px;
+}
+
+.no-btn {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px 7px 1px 7px;
+}
+
+.google-logo {
+    display: block;
+    width: 210px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+}
+
+.google-search-box2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 500px;
+    margin-left: 378px;
+    /* padding-right: 50px;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px; */
+    padding: 10px 12px 10px 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.req-ride {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.pickup {
+    display: block;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: black;
+    margin-bottom: 8px;
+    border: none;
+    background-color: rgba(219, 206, 206, 0.534);
+    padding: 8px 180px 8px 10px;
+}
+.pickup::placeholder {
+    color: black;
+}
+
+.destination {
+    display: block;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: black;
+    border: none;
+    background-color: rgba(219, 206, 206, 0.534);
+    padding: 8px 180px 8px 10px;
+    margin-bottom: 30px;
+}
+.destination::placeholder {
+    color: black;
+}
+
+.req-btn {
+    background-color: black;
+    color: white;
+    padding: 6px 8px;
+    font-size: 15px;
+    border: none;
+    margin-right: 8px;
+}
+
+.scd-btn {
+    background-color: rgba(219, 206, 206, 0.534);
+    color: black;
+    padding: 5px 8px;
+    border: none;
+    font-size: 15px;
+}
+
+.red-sqr-div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-right: 50px;
+}
+
+.green-circle-div {
+    display: inline-block;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+
+.satisfied-service {
+    display: inline-block;
+    padding: 10px 10px;
+    width: 300px;
+    vertical-align: top;
+    border-radius: 4px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+
+.yt-music-div {
+    padding: 5px 18px;
+    background-color: #282828;
+    width: 430px;
+    margin-bottom: 50px;
+}
+
+.i-yt-music {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.add-yt-music {
+    font-family: "Courier New", Courier, monospace;
+    color: #888888;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.twt-div {
+    border-style: solid;
+    border-radius: 10px;
+    border: none;
+    width: 470px;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+
+.dog-profile-div {
+    width: 170px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.masked-dog-img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.oliver {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.mtl-frnd {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.add-frnd-btn {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgba(23, 89, 211, 0.753);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 6px 12px;
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.dog-profile-div2 {
+    width: 170px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    display: inline-block;
+    margin-right: 100px;
+}
+.dog-profile-div3 {
+    width: 170px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    display: inline-block;
+    margin-right: 100px;
+}
+.dog-profile-div4 {
+    width: 170px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.google-logo2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.two-same-button {
+    text-align: center;
+}
+
+.g-s {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+}
+
+.g-s-2 {
+    margin-right: 20px;
 }

@@ -1,3 +1,12 @@
+.search-bar {
+    display: block;
+}
 .thumbnails {
     width: 350px;
+}
+
+.video-div {
+    display: inline-block;
+    width: 350px;
+    margin-right: 15px;
 }
