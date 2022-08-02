@@ -691,3 +691,26 @@ padding-bottom: 10px; */
 .g-s-2 {
     margin-right: 20px;
 }
+
+/* .video-info-divs {
+    display: inline-block;
+} */
+
+.vertical-divs {
+    width: 700px;
+}
+.img-inline-div {
+    display: inline-block;
+    width: 200px;
+}
+
+.yt-img-nstd-div {
+    width: 100%;
+}
+
+.video-info-txt {
+    display: inline-block;
+    width: 490px;
+    vertical-align: top;
+    font-size: 14px;
+}

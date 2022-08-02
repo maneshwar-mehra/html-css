@@ -1,12 +1,62 @@
+p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .search-bar {
     display: block;
 }
+
 .thumbnails {
-    width: 350px;
+    width: 300px;
+}
+
+.video-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.video-author {
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 3px;
+}
+
+.video-stats {
+    font-size: 13px;
+    color: rgb(96, 96, 96);
 }
 
 .video-div {
     display: inline-block;
-    width: 350px;
-    margin-right: 15px;
+    width: 300px;
+    vertical-align: top;
+    /* margin-right: 15px; */
+}
+
+.channel-img-div {
+    /* display: inline-block; to have a vertical layout of channel pic and video info text */
+    display: inline-block;
+    width: 50px;
+}
+
+.vd-info {
+    /* display: inline-block; to have a vertical layout of channel pic and video info text */
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.profile-pic {
+    /* width: x% here means, that the image will take the width from the container(which we defined above as
+    50px), so here the image is x%  of 50px */
+    width: 80%;
+    border-radius: 50px;
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
 }
