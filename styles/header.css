@@ -1,0 +1,24 @@
+.header-div-flex {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left-section {
+    background-color: lightgreen;
+    width: 200px;
+}
+
+.header-center-section {
+    background-color: lightcoral;
+    flex: 1;
+    margin-left: 55px;
+    margin-right: 75px;
+    max-width: 500px; /* it means that the width after 350px will not be streached when resizing the window  */
+}
+.header-right-section {
+    background-color: lightgreen;
+    width: 300px;
+}

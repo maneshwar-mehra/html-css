@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Youtube</title>
-        <link rel="stylesheet" href="youtube.css" />
+        <link rel="stylesheet" href="styles/general.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/video.css" />
+
         <!-- Google fonts -->
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
@@ -13,12 +16,22 @@
         />
     </head>
     <body>
-        <input class="search-bar" type="text" placeholder="Seacrh" />
 
 
-        <div class="all-video-container-grid">
+        <div class="header-div-flex"> <!-- header div starts -->
+            <div class="header-left-section">left section</div>
 
-            <div class="video-div">
+            <div class="header-center-section">
+                <input class="search-bar" type="text" placeholder="Seacrh" />
+            </div>
+
+            <div class="header-right-section">right section</div>
+
+        </div> <!-- header div ends -->
+
+
+        <div class="all-video-container-grid">  <!-- main div containing everything starts-->
+            <div>
                 <div class="thumbnail-row">
                     <img
                         class="thumbnails"
@@ -236,7 +249,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  <!-- main div containing everything ends-->
 
 
 
