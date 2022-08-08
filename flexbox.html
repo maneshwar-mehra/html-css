@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>flexbox</title>
+        <link rel="stylesheet" href="flexbox.css" />
     </head>
     <body style="padding-bottom: 500px">
         <!-- 1.)To use flex we first have to put display: flex property to the parent div.
@@ -120,6 +121,140 @@
         >
             <div style="background-color: lightblue; width: 100px">100px</div>
             <div style="background-color: lightcoral; width: 100px">100px</div>
+        </div>
+
+        <div
+            style="
+                width: 500px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: gray;
+                border-radius: 6px;
+                margin-top: 50px;
+            "
+        >
+            <!-- home div -->
+            <div
+                style="
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 6px 12px 6px 12px;
+                "
+            >
+                <div
+                    style="
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                            sans-serif;
+                        font-weight: 500;
+                    "
+                >
+                    Home
+                </div>
+                <div
+                    style="
+                        background-color: rgba(73, 122, 226, 0.87);
+                        color: white;
+                        border: none;
+                        border-radius: 16px;
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                            sans-serif;
+                        font-weight: bold;
+                        padding: 2px 15px 2px 15px;
+                    "
+                >
+                    14
+                </div>
+            </div>
+
+            <!-- notification div -->
+            <div
+                style="
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 6px 12px 6px 12px;
+                "
+            >
+                <div
+                    style="
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                            sans-serif;
+                        font-weight: 500;
+                    "
+                >
+                    Notifications
+                </div>
+                <div
+                    style="
+                        background-color: rgba(73, 122, 226, 0.87);
+                        color: white;
+                        border: none;
+                        border-radius: 16px;
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                            sans-serif;
+                        font-weight: bold;
+                        padding: 2px 15px 2px 15px;
+                    "
+                >
+                    3
+                </div>
+            </div>
+
+            <!-- messages div -->
+            <div
+                style="
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 6px 12px 6px 12px;
+                "
+            >
+                <div
+                    style="
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                            sans-serif;
+                        font-weight: 500;
+                    "
+                >
+                    Messages
+                </div>
+                <div
+                    style="
+                        background-color: rgba(73, 122, 226, 0.87);
+                        color: white;
+                        border: none;
+                        border-radius: 16px;
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                            sans-serif;
+                        font-weight: bold;
+                        padding: 2px 15px 2px 15px;
+                    "
+                >
+                    5
+                </div>
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="left-section-header">Home</div>
+
+            <input
+                class="input-in-search-bar"
+                type="text"
+                placeholder="Search"
+            />
+
+            <button class="dowload-btn-in-header">Download</button>
         </div>
     </body>
 </html>

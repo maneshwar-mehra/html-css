@@ -7,18 +7,102 @@
 }
 
 .header-left-section {
-    background-color: lightgreen;
-    width: 200px;
+    display: flex; /* nested flexbox */
+    align-items: center;
+}
+
+.hamburger-menu {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.yt-logo {
+    height: 25px;
 }
 
 .header-center-section {
-    background-color: lightcoral;
     flex: 1;
     margin-left: 55px;
     margin-right: 75px;
     max-width: 500px; /* it means that the width after 350px will not be streached when resizing the window  */
+    display: flex; /* nested flexbox */
+    align-items: center;
 }
+
+.search-bar {
+    flex: 1;
+    /* setting widht: 0 so that it does shrink while re-sizing */
+    width: 0;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: rgba(197, 193, 193, 0.932);
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: inset 2px 2px 3px rgba(10, 10, 10, 0.05);
+}
+
+.search-bar::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.search-btn-header {
+    width: 40px;
+    height: 40px;
+    margin-left: -1px; /* to push the btn into the search bar a little bit */
+    margin-right: 8px;
+    background-color: rgba(240, 235, 235, 0.404);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(197, 193, 193, 0.932);
+}
+
+.search-icon-svg {
+    height: 22px;
+    margin-top: 2px;
+}
+
+.voice-btn-header {
+    width: 40px;
+    height: 40px;
+    /* TRICK: if we put half the amount of the height of the element to the border-radius it will make it round */
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(240, 235, 235, 0.404);
+}
+
+.voice-icon-svg {
+    height: 22px;
+    margin-top: 2px;
+}
+
 .header-right-section {
-    background-color: lightgreen;
-    width: 300px;
+    width: 220px;
+    display: flex; /* nested flexbox */
+    align-items: center;
+    justify-content: space-between;
+    /* setting flex-shrink: 0 so that it does not shrink while re-sizing*/
+    flex-shrink: 0;
+}
+
+.upload-svg {
+    height: 26px;
+}
+
+.yt-apps-svg {
+    height: 26px;
+}
+
+.notifications-svg {
+    height: 26px;
+}
+
+.my-channel-svg {
+    height: 30px;
+    /* TRICK: if we put half the amount of the height of the element to the border-radius it will make it round */
+    border-radius: 15px;
+    margin-right: 20px;
 }
