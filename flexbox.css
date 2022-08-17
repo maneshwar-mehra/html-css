@@ -43,3 +43,55 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.prac-nested-flex {
+    display: flex;
+    margin-top: 50px;
+}
+
+.prac-nested-left {
+    /* nested flex box */
+    background-color: lightcoral;
+    display: flex; /* to make it flex box */
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+}
+
+.prac-nested-right {
+    background-color: lightseagreen;
+    width: 300px;
+    height: 50px;
+}
+
+.item-1 {
+    background-color: black;
+    color: white;
+}
+
+.prac-nested-left-2 {
+    background-color: lightcoral;
+    width: 200px;
+    height: 100px;
+}
+
+.prac-nested-right-2 {
+    background-color: lightseagreen;
+    width: 300px;
+    height: 100px;
+}
+
+.prac-2-nested-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.row-2 {
+    background-color: black;
+    color: white;
+}
+
+.row-2a {
+    background-color: black;
+    color: white;
+}

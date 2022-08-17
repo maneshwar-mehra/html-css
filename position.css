@@ -1,0 +1,69 @@
+body {
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.div1 {
+    background-color: lightcoral;
+    height: 200px;
+    width: 200px;
+}
+
+.div2 {
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+}
+
+.prac-header-div {
+    background-color: black;
+    color: white;
+    /* when we give position to any element it means now the element is not taking space ont the page
+        as other normal elemests, it is now floating  */
+    position: fixed;
+    /* top, bottom, left, right. We use these properties with position
+        top 0px means that the element will stick to top of the window or webpage */
+
+    /* when we give 2 opposite direction with position then the element gets streached
+    to maintain that*/
+
+    /* for example: right 20px left 20px, now the element will streatch and leave spaces
+    from right and left 20px each */
+
+    /* if we want to the position: fixed element to resize with the page,
+    the we should use top, bottom, right, left */
+    /* if we don't want to the position: fixed element to resize with the page,
+    we can use height and width  */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+}
+
+.sidebar-div {
+    background-color: rgb(197, 143, 224);
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    bottom: 0px;
+    width: 90px;
+}
+
+.botton-right {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+}
+
+.right-sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;
+}

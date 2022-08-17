@@ -4,6 +4,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(179, 173, 173, 0.555);
 }
 
 .header-left-section {
