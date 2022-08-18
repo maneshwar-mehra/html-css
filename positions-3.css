@@ -1,5 +1,5 @@
 body {
-    height: 1000px;
+    height: 4000px;
 }
 
 .fb-header {
@@ -7,14 +7,15 @@ body {
     top: 0;
     left: 0px;
     right: 0px;
-    height: 60px;
+    padding: 15px 60px 15px 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: aliceblue;
 }
 
 .oliver {
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -22,17 +23,14 @@ body {
 .left-side-header {
     display: flex;
     align-items: center;
-    padding-left: 40px;
-}
-
-.right-side-header {
-    padding-right: 40px;
 }
 
 .profile-img {
     width: 45px;
     height: 45px;
+    object-fit: cover;
     border-radius: 25px;
+    margin-right: 10px;
 }
 
 .add-friend {
@@ -52,6 +50,104 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: bold;
-    padding: 8px 12px 8px 12px;
+    padding: 8px 16px 8px 16px;
     background-color: rgba(206, 206, 206, 0.473);
+}
+
+/* starting discord */
+
+.left-section-discord {
+    position: fixed;
+    top: 75px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(12, 13, 14, 0.767);
+}
+
+.right-section-discord {
+    position: fixed;
+    top: 75px;
+    bottom: 0px;
+    left: 64px;
+    background-color: rgb(102, 102, 102);
+}
+
+.discord-img-1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.discord-img-2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.discord-img-3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.img-div-1 {
+    padding: 25px 12px 0px 12px;
+}
+.img-div-2 {
+    padding: 7px 12px 0px 12px;
+}
+.img-div-3 {
+    padding: 7px 12px 0px 12px;
+}
+
+.info-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding: 5px 15px 0px 15px;
+}
+
+.info-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: azure;
+}
+
+.plus-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: azure;
+}
+
+.new-vid-div {
+    padding: 0px 10px 0px 10px;
+}
+
+.updates-div {
+    padding: 0px 10px 0px 10px;
+}
+
+.faq-div {
+    padding: 0px 10px 0px 10px;
+}
+
+.new-vid-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: azure;
+}
+
+.updates-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: azure;
+}
+
+.faq-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: azure;
 }
