@@ -4,10 +4,24 @@ body {
     padding-left: 100px;
 }
 
+/* we have set div1 to position: relative, because we have to put another div inside it and set it to absolute to this
+    position: relative does not change the behaivour of the div */
 .div1 {
     background-color: lightcoral;
     height: 200px;
     width: 200px;
+    position: relative;
+}
+
+/* timestapm div is inside div1
+    we have set position: absolute so that we can position this div inside div1
+      */
+.timestamp {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .div2 {
@@ -39,6 +53,7 @@ body {
     left: 0px;
     right: 0px;
     height: 60px;
+    z-index: 100;
 }
 
 .sidebar-div {
@@ -66,4 +81,17 @@ body {
     top: 0px;
     bottom: 0px;
     width: 100px;
+}
+
+/* we have this div inside sidebar div
+    sidebar div have position: fixed
+    this div have position:absolute
+    now whatever values we provide, right, left, top, bottom
+    all the values will be positioned inside sidebar div */
+.abs-pos-div {
+    position: absolute;
+    background-color: whitesmoke;
+    color: red;
+    top: 0;
+    right: 0px;
 }

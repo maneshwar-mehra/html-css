@@ -12,6 +12,7 @@
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgba(179, 173, 173, 0.555);
+    z-index: 100;
 }
 
 .header-left-section {
@@ -106,6 +107,22 @@
 
 .notifications-svg {
     height: 26px;
+}
+
+.notification-container {
+    position: relative;
+}
+
+.notification-count {
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    right: -6px;
+    top: -5px;
 }
 
 .my-channel-svg {
