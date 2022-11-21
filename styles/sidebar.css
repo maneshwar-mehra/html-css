@@ -4,5 +4,39 @@
     bottom: 0px;
     top: 55px;
     width: 90px;
-    background-color: aqua;
+    background-color: white;
+    padding-top: 12px;
+}
+
+.sidebar-link-divs {
+    background-color: white;
+    height: 80px;
+    margin-bottom: 5px;
+    display: flex;
+    /* to aligh all the text below the sidebar icons, vertically  */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+/* this means that we are targeting all the img tags inside the .sidebar-link-divs
+     and not the images of the whole page */
+
+.sidebar-link-divs img {
+    height: 32px;
+    margin-bottom: 5px;
+}
+
+/* this means that we are targeting all the div tags inside the .sidebar-link-divs
+     and not the divs of the whole page */
+
+.sidebar-link-divs div {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+.sidebar-link-divs:hover {
+    background-color: rgba(230, 230, 230, 0.87);
 }
