@@ -10,5 +10,5 @@ body {
     padding-left: 115px;
     padding-right: 40px;
     background-color: rgb(238, 238, 238);
-    height: 3000px; /* this is just for checking positions, we can remove this later*/
+    /* height: 3000px; this is just for checking positions, we can remove this later */
 }

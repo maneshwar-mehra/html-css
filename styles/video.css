@@ -55,3 +55,21 @@
     column-gap: 18px;
     row-gap: 18px;
 }
+
+@media (max-width: 800px) {
+    .all-video-container-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1499px) {
+    .all-video-container-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1500px) {
+    .all-video-container-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
