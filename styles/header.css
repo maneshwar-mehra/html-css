@@ -69,9 +69,36 @@
     border-color: rgba(197, 193, 193, 0.932);
 }
 
+.search-btn-header,
+.voice-btn-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn-header .tooltip,
+.voice-btn-header .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 3px 4px;
+    border-radius: 2px;
+    font-size: 15px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-btn-header:hover .tooltip,
+.voice-btn-header:hover .tooltip {
+    opacity: 1;
+}
+
 .search-icon-svg {
     height: 22px;
-    margin-top: 2px;
 }
 
 .voice-btn-header {
@@ -85,7 +112,6 @@
 
 .voice-icon-svg {
     height: 22px;
-    margin-top: 2px;
 }
 
 .header-right-section {
